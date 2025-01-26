@@ -20,3 +20,10 @@ source envs/jdIcard/bin/activate
  ### migrate project
 
  python manage.py migrate
+
+ ### install django rest framewoek
+ pip3 install djangorestframework
+
+ ### instalar documentacion automatica
+
+ pip3 install drf-yasg
