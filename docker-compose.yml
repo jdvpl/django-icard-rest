@@ -1,0 +1,13 @@
+services:
+  menuflash-db:
+    container_name: menuflash
+    image: postgres:17.2
+    restart: always
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    ports:
+      - 5436:5432
+    environment:
+      POSTGRES_USER: menuflash_user
+      POSTGRES_PASSWORD: menuflash_xfgasdfasdf
+      POSTGRES_DB: menuflash

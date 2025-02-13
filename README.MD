@@ -27,3 +27,6 @@
  ### instalar documentacion automatica
 
  ```pip3 install drf-yasg```
+
+
+## 
